@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+}
+h2 {
+  text-align: center;
+  box-sizing: content-box;
+  color: darkred;
+}
+#search-form {
+  text-align: center;
+}
+body {
+  background-image: url('../images/movie2.jpeg');
+  background-size: cover;
+}
