@@ -15,7 +15,7 @@ $(function(){
         if (v.poster_path!=undefined && counter<20){
 
         // var template = '<li class="movie"><h3>' + v.title + '</h3></li>';
-        var image = '<li class="movie"> <img src = "http://image.tmdb.org/t/p/w300/'+ v.poster_path + '" title="'+v.title+'"></li>';
+        var image = '<li class="movie"> <img src = "https://image.tmdb.org/t/p/w300/'+ v.poster_path + '" title="'+v.title+'"></li>';
         $('.results').append(image);
         counter++;
       }
