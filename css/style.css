@@ -1,18 +1,21 @@
 h1 {
   text-align: center;
-  box-sizing: border-box;
-  color: white;
+  color: #79C8F5;
+  font-family: 'Bevan', cursive;
+  text-shadow: 7px 3px 5px #000000;
+
 }
 h2 {
   text-align: center;
-  box-sizing: content-box;
-  color: darkred;
+  color: #B077F5;
+  text-shadow: 3px 2px 5px #000000;
+  font-family: 'Shadows Into Light', cursive;
 }
 #search-form {
   text-align: center;
 }
 body {
-  background-image: url('../images/movie2.jpeg');
+  background-image: url('../images/pic4.jpeg');
   background-size: cover;
 }
 
@@ -33,5 +36,5 @@ body {
 #search-results{
   height: 32px;
   color: darkblue;
-  
+
 }
