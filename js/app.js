@@ -4,7 +4,7 @@ $(function(){
     max.preventDefault();
     var search = $('#search-term').val();
     // console.log(search);
-    var movieUrl = 'http://api.themoviedb.org/3/search/movie?api_key=' + 'd33d1596f209c36e9f46d525a5f9ba0a' + '&query=' + search;
+    var movieUrl = 'https://api.themoviedb.org/3/search/movie?api_key=' + 'd33d1596f209c36e9f46d525a5f9ba0a' + '&query=' + search;
     $('.results').html('');
 
 
